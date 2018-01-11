@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/concrete_seamless.png);
+
+}
+
+ul {
+    margin: 0;
+    text-align: right;
+    padding: 0;
+}
+
+
+
+/*select all anchor tags*/
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+nav.navigation {
+    border-bottom: 2px solid;
+    border-color: #cccccc;
+    background-color: white;
+    padding: 0px 100px 30px 50px;
+}
+
+nav.navigation li {
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    vertical-align: bottom;
+    width: 3%;
+    padding: 40px 20px 0 0;
+}
+
+
+
+.logo {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 0px 0 10px 200px;
+
+}
+
+.container {
+    background color: lightgrey;
+}
+
+#about {
+    overflow: auto;
+    background-color: #ffffff;
+    width: 560px;
+    height: 250px;
+    float: left;
+    padding: 30px 40px 50px 50px;
+    margin: 50px 20px 50px 150px;
+   font-family: 'Arial';
+}
+
+
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid;
+    border-color: #cccccc;
+    font-family: 'Georgio';
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 50px;
+}
+
+.connect {
+    overflow: auto;
+    background-color: #ffffff;
+    width: 190px;
+    height: 150px;
+    float: right;
+    padding: 30px 50px 50px 30px;
+    margin: 60px 250px 0 0;
+}
+
+
+
+.icons {
+    float: right;
+    right: 380px;
+    top: 250px;
+    position: absolute;
+}
+
+.github img {
+    height: 50px;
+    width: 50px;
+}
+
+.linkedin img {
+    height: 50px;
+    width: 50px;
+    left: 60px;
+    bottom: 50px;
+    position: relative;
+}
+
+.stackoverflow img {
+    height: 60px;
+    width: 55px;
+    left: 120px;
+    bottom: 105px;
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#copyright {
+    background-color: darkgrey;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    margin-top: 500px;
+    border-top: 10px solid;
+    border-color: #4aaaa5;
+}
+
+#copyright p {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    color: lightgrey;
+}
+
+
+/*Contact Page*/
+
+#contact {
+    overflow: auto;
+    background-color: #ffffff;
+    width: 560px;
+    height: 450px;
+    float: left;
+    padding: 30px 40px 50px 50px;
+    margin: 50px 20px 50px 150px;
+}
+
+.contactForm input {
+    width: 100%;
+    height: 30px;
+}
+
+.contactForm textarea {
+    width: 100%;
+}
+
+.contactForm button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/*Portfolio Page*/
+#portfolio {
+    overflow: auto;
+    background-color: #ffffff;
+    width: 440px;
+    height: 450px;
+    float: left;
+    padding: 30px 40px 50px 50px;
+    margin: 50px 20px 50px 150px;
+}
+
+ #portfolio img {
+	width: 35% ;
+	float: left;
+	margin: 10px 20px 20px 20px;
+
+}
+
+#portfolio p {
+	padding: 10px;
+	background-color: #4aaaa5;
+	z-index: 1;
+	position: absolute;
+	float: left;
+}

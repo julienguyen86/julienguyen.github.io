@@ -60,6 +60,7 @@ nav.navigation li {
     padding: 30px 40px 50px 50px;
     margin: 50px 20px 50px 150px;
    font-family: 'Arial';
+
 }
 
 
@@ -193,10 +194,23 @@ img {
 
 }
 
-#portfolio p {
-	padding: 10px;
+.portfolio .hangman p {
+	padding: 10px 50px;
 	background-color: #4aaaa5;
 	z-index: 1;
 	position: absolute;
 	float: left;
+    left: 215px;
+    top:300px;
+
+}
+
+.portfolio .game p {
+    padding: 10px 40px;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    
 }
